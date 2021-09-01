@@ -71,7 +71,7 @@ public class ContactsPageTest extends TestBase {
 	@AfterMethod
 	public void closebrowser() {
 		
-		System.out.println("just prinitng");
+		
 		driver.quit();
 		
 	}
