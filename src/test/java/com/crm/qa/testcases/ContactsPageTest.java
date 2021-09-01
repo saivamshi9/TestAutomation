@@ -1,6 +1,7 @@
 package com.crm.qa.testcases;
 
 import org.testng.Assert;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -25,7 +26,7 @@ public class ContactsPageTest extends TestBase {
 	}
 	
 	@BeforeMethod
-	public void setup() {
+	public void setup() { //git commit check
 
 	initialisation(); //calling method of our TestBaseClass to launchchrome .. etc
 	testutil = new TestUtil();
@@ -70,6 +71,7 @@ public class ContactsPageTest extends TestBase {
 	@AfterMethod
 	public void closebrowser() {
 		
+		System.out.println("just prinitng");
 		driver.quit();
 		
 	}
