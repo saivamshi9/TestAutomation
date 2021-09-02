@@ -71,10 +71,11 @@ public class HomePage extends TestBase {
 		 
 		 return new TasksPage();
 	 }
- public void clickonNewContact() {
+ public void clickonNewContact() throws InterruptedException {
 	 
 	 Actions action = new Actions(driver);
 	 action.moveToElement(contactslink).build().perform();
+	 Thread.sleep(2000);
 	 newcontactslink.click();
 	 
  }
