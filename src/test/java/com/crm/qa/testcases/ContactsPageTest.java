@@ -59,14 +59,13 @@ public class ContactsPageTest extends TestBase {
 
 	}
 	
-	
-	@Test(priority=4)
-	public void createnewcontactTest() throws InterruptedException {
-		
-		homepage.clickonNewContact();
-		Thread.sleep(3000);
-		contactspage.createnewcontact("Mr.", "Surya", "B", "IMP");
-	}
+	/*
+	 * @Test(priority=4) public void createnewcontactTest() throws
+	 * InterruptedException {
+	 * 
+	 * homepage.clickonNewContact(); Thread.sleep(3000);
+	 * contactspage.createnewcontact("Mr.", "Surya", "B", "IMP"); }
+	 */
 	
 	@AfterMethod
 	public void closebrowser() {
