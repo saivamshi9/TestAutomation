@@ -52,13 +52,13 @@ public class HomePageTest extends TestBase {
 		
 	}
 	
-	@Test(priority=2)
+	@Test(priority=3)
 	public void loggedinusertest() {
 		
 		testutil.switchtoFrame();
 		Assert.assertTrue(homepage.VerifyCurrentUser());
 	}
-	@Test(priority=3)
+	@Test(priority=2)
 	public void ClickOnContactstest()
 	{
 		 testutil.switchtoFrame();
