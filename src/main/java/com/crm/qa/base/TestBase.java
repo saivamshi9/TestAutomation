@@ -53,7 +53,7 @@ public static void initialisation() { //create an initialization method
 	driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_TIMEOUT,TimeUnit.SECONDS);
 	driver.get(prop.getProperty("url"));
 	//log.info("app url is " + prop.getProperty("url") );
-	
+	//for some edit
 	
 
 }
