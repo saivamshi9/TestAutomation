@@ -45,13 +45,13 @@ public class ContactsPageTest extends TestBase {
 		Assert.assertTrue(contactspage.validateContactsLabel());
 	}
 	
-	@Test(priority=2)
+	@Test(priority=3)
 	public void selectcontactTest() {
 		
 		contactspage.selectcontacts("Vamshi2 Test2");
 	}
 	
-	@Test(priority=3)
+	@Test(priority=2)
 	public void selectmultiplecontactsTest() {
 		
 		contactspage.selectcontacts("Vamshi2 Test2");
