@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="76726" started-at="2021-09-03T06:30:36Z" finished-at="2021-09-03T06:31:52Z">
+  <suite name="Default suite" duration-ms="23330" started-at="2021-12-08T10:42:20Z" finished-at="2021-12-08T10:42:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="76726" started-at="2021-09-03T06:30:36Z" finished-at="2021-09-03T06:31:52Z">
-      <class name="com.crm.qa.testcases.ContactsPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@25b485ba]" name="setup" is-config="true" duration-ms="74440" started-at="2021-09-03T12:00:36Z" finished-at="2021-09-03T12:01:50Z">
+    <test name="Default test" duration-ms="23330" started-at="2021-12-08T10:42:20Z" finished-at="2021-12-08T10:42:44Z">
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5d740a0f]" name="setup" is-config="true" duration-ms="16287" started-at="2021-12-08T16:12:21Z" finished-at="2021-12-08T16:12:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ContactsLabelTest()[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@25b485ba]" name="ContactsLabelTest" duration-ms="286" started-at="2021-09-03T12:01:50Z" finished-at="2021-09-03T12:01:50Z">
+        <test-method status="PASS" signature="logintest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@5d740a0f]" name="logintest" duration-ms="5944" started-at="2021-12-08T16:12:37Z" finished-at="2021-12-08T16:12:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ContactsLabelTest -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@25b485ba]" name="closebrowser" is-config="true" duration-ms="1902" started-at="2021-09-03T12:01:50Z" finished-at="2021-09-03T12:01:52Z">
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@5d740a0f]" name="closebrowser" is-config="true" duration-ms="899" started-at="2021-12-08T16:12:43Z" finished-at="2021-12-08T16:12:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
