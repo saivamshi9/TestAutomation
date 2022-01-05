@@ -9,7 +9,7 @@ import com.crm.qa.base.TestBase;
 import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
 
-public class LoginPageTest extends TestBase{
+public class LoginPageTest extends TestBase{ //new jenkins job commit
 	
 	LoginPage loginpage; //create a global variable for LoginPage to use functions of that class
 	HomePage homepage; // create a global variable for HomePage to use functions of that class
