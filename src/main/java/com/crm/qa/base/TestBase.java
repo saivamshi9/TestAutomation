@@ -45,7 +45,7 @@ public static void initialisation() { //create an initialization method
 	
 	String browsername = prop.getProperty("browser");
 	if(browsername.equals("chrome")) {
-		System.setProperty("webdriver.chrome.driver","G:/chromedriver_96/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","G:/chromedriver_99/chromedriver.exe");
 		 driver = new ChromeDriver();
 	}
 	driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT,TimeUnit.SECONDS); //wait for page
